@@ -1,0 +1,10 @@
+activity,idx,description,duration,precedence,resources,Worker_1,Worker_2,Worker_3
+A,1,Rinse,30,Start,"[1,0,0]",1,0,0
+B,2,Remove_and_clean_head,60,A,"[0,1,0]",0,1,0
+C,3,Work_on_worm,30,A,"[1,0,0]",1,0,0
+D,4,Drain_hopper,30,B,"[0,1,0]",0,1,0
+E,5,Place_and_attach_head,30,D,"[1,0,0]",1,0,0
+F,6,Turn_on_heating_of_extruder,90,E,"[0,0,1]",0,0,1
+G,7,Hopper_head_forerunner,30,D,"[1,1,0]",1,1,0
+H,8,Extra_setup,30,D,"[0,0,1]",0,0,1
+I,9,Cable_preparation,30,"H,F","[1,0,0]",1,0,0
