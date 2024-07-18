@@ -2,7 +2,7 @@ activity,idx,description,duration,precedence,resources,Worker_1,Worker_2,Worker_
 A,1,Remove_highway,60,Start,"[1,1,0]",1,1,0
 B,2,Rinse,30,Start,"[0,0,1]",0,0,1
 C,3,Remove_and_clean_head,60,B,"[1,0,0]",1,0,0
-D,4,Work_on_worm,30,B,"[0,0,1]",1,0,0
+D,4,Work_on_worm,30,B,"[0,0,1]",0,0,1
 E,5,Drain_hopper,30,"D,C","[0,1,0]",0,1,0
 F,6,Place_and_attach_head,30,E,"[1,0,0]",1,0,0
 G,7,Turn_on_heating_of_extruder,90,F,"[0,0,1]",0,0,1
